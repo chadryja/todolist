@@ -4,6 +4,7 @@ const ejs=require("ejs")
 const app=express();
 const mongoose=require("mongoose");
 var _ = require('lodash');
+
 main().catch(err => console.log(err));
 
 async function main() {
@@ -75,7 +76,6 @@ app.post("/delet",async(req,res)=>{
     }
 })
  
-
 app.listen(3000,(req,res)=>{
     console.log("okaaa");
 })

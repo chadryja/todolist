@@ -1,14 +1,15 @@
 {
   "name": "todo",
-  "version": "1.0.0", 
+  "version": "1.0.0",
   "description": "test practice",
   "main": "ind.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "type": "modules"
+    
   },
   "author": "CHAUDARY JAWAD NASIR",
-  "license": "ISC", 
+  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
     "ejs": "^3.1.9",
